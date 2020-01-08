@@ -1,0 +1,171 @@
+<html style="text-align: center;">
+    <head>
+        <title>DataInk Supplemental Material`</title>
+    </head>
+    <body style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        
+        <img src="pics/teaserv6.png" width="60%">
+        <br>
+        
+        <p style="text-align:justify; margin-left:22%; width:56%">
+        Creating whimsical, personal data visualizations remains a challenge due to a lack of tools that enable for creative visual expression while providing support to bind graphical content to data. Many data analysis and visualization creation tools target the quick generation of visual representations, but lack the functionality necessary for graphics design. Toolkits and charting libraries offer more expressive power, but require expert programming skills to achieve custom designs. In contrast, sketching affords fluid experimentation with visual shapes and layouts in a freeform manner, but requires one to manually draw every single data point. We aim to bridge the gap between these extremes. We propose DataInk, a system supports the creation of expressive data visualizations with rigorous direct manipulation via direct pen and touch input. Leveraging our commonly held skills, coupled with a novel graphical user interface, DataInk  enables direct, fluid, and flexible authoring of creative data visualizations. <br>
+        
+        <p style="text-align:justify; margin-left:22%; width:56%">
+        Haijun Xia, Nathalie Henry Riche, Fanny Chevalier, Bruno de Araujo, Daniel Wigdor. <b>DataInk: Direct and Creative Data-Oriented Drawing.</b> 
+        In <i>Proceedings of ACM SIGCHI 2018</i>, to appear. <b> Honourable Mention Award </b>
+        </p>
+        <br>
+        
+        <h2>Supplemental Material</h2>
+        
+        <a href="dataink.pdf">[Paper]</a>
+        <a href="#video">[Video]</a>
+        <a href="#dataink">[DataInk]</a>
+        <a href="#examples">[Examples]</a>
+        <a href="#results">[Study results]</a>
+     
+        <br><br><br>
+        <br><br><br>
+        
+        <h3>Video</h3>
+        <a name="video"></a>
+        
+        <video width="60%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+            <source src="videos/cameraready_pn2368.mp4"> 
+        </video>
+      
+
+
+        <h3>DataInk</h3>
+        <img src="pics/dataInk.png" width="60%">
+        <p style="text-align:justify; margin-left:25%; width:50%">DataInk is composed of five UI components. The visualization canvas (a) shows the generated 
+            visual representation of the data, as well as any visual elements 
+            not bound to data such as handwritten text or illustrative marks. 
+            A contextual visual-data palette (b) appears when the authors taps on a visual element, enabling them to set appropriate mappings. 
+            The legend depicting the sets of mapping between visual encodings and data dimensions are grouped in two panels: 
+            one for the glyph (c) and one for the layout (d). A side menu (e) allows an 
+            author access to functionality such as searching vector graphics, loading data, saving the visuals,
+            as well as providing access to several illustration tools. </p>
+
+        <p style="text-align:justify; margin-left:25%; width:50%">DataInk provides the following vocabulary of pen and touch interactions:</p>
+        <img src="pics/vocabulary.png" width="50%">
+
+        <div style="text-align:left; margin-left:25%">
+        <br><br>
+        Below is an example workflow, see <a href="#video">video</a> for more details.
+        <br><br>
+        1) Draw a dog shape,  change its fill color, bind it to its data value:
+        <br><br>
+        <img src="pics/s1.PNG" width="22%">
+        <img src="pics/s2.PNG" width="22%">
+        <img src="pics/s3.PNG" width="22%">
+        <br><br>
+        2) Adjust the color for all data values from the legend:
+        <br><br>
+        <img src="pics/s5.PNG" width="28%">
+        <br><br>
+        3) Add a hair ball on top of the dog's head, bind it to fur length, edit the shape for different data values
+        <br><br>
+        <img src="pics/s6.PNG" width="24%">
+        <img src="pics/s7.PNG" width="22%">
+        <img src="pics/s8.PNG" width="22%">
+        <br><br>        
+        </div>
+
+
+        <h3>Examples</h3>
+        <a name="examples"></a>
+        <p> Mouse over images to play the videos. 
+            <br>Note that examples were generated on a surface pro 3 and are shown in accelerated speed. </p> 
+        
+        <video width="50%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+            <source src="videos/dogs.mp4"> 
+        </video>
+        <video width="50%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+            <source src="videos/compliments.mp4"> 
+        </video>
+        <video width="50%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+            <source src="videos/hearts.mp4"> 
+        </video>
+        <video width="50%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+            <source src="videos/lys.mp4"> 
+        </video>
+        <video width="50%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+            <source src="videos/clocks.mp4"> 
+        </video>
+        <video width="50%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+            <source src="videos/rain.mp4"> 
+        </video>
+
+        <h3>Study Results</h3>
+        <a name="results"></a>
+
+        <p style="text-align:justify; margin-left:20%; width:60%">
+            We conducted a user study to gain insights into the potential of DOD in supporting design expression, rigorous execution 
+            and creative expression, as well as the usability of DataInk for authoring data visualizations. 
+            We targeted designers to understand tradeoffs of DOD compare to graphics design tools, 
+            and invited non-experts (limited experience in programming, data analysis and design) to 
+            assess the receptiveness of DOD by a general audience.
+            <br><br>
+            We ask participants to:<br>
+            1) Replicate an example starting from scratch, <br>
+            2) Iterate on their design to achieve a second example, <br>
+            3) Freeform exploration to create their own data visualization. 
+            <br><br>
+            All managed to complete tasks 1 and 2 successfully. Below are the results of their freform exploration.
+            </p>
+
+        <div style="text-align:left; margin-left:20%">
+        <br><br><br>
+        Designer 1 
+        <br>
+        <img src="pics/d1.svg" width="40%">
+        <img src="pics/d1_panel.svg" width="50%">
+        <br><br>
+
+        Designer 2 
+        <br>
+        <img src="pics/d2.svg" width="40%">
+        <img src="pics/d2_panel.svg" width="50%">
+        <br><br>
+
+        Designer 3 
+        <br>
+        <img src="pics/d3.svg" width="40%">
+        <img src="pics/d3_panel.svg" width="50%">
+        <br><br>
+
+        Designer 4 
+        <br>
+        <img src="pics/d4.svg" width="40%">
+        <img src="pics/d4_panel.svg" width="50%">
+        <br>
+        
+        <br><br>
+        Non-Expert 1
+        <br>
+        <img src="pics/p1.svg" width="40%">
+        <img src="pics/p1_panel.svg" width="50%">
+        <br><br>
+
+        Non-Expert 2
+        <br>
+        <img src="pics/p2.svg" width="40%">
+        <img src="pics/p2_panel.svg" width="10%">
+        <br><br>
+
+        Non-Expert 3
+        <br>
+        <img src="pics/p3.svg" width="40%">
+        <img src="pics/p3_panel.svg" width="50%">
+        <br><br>
+
+        Non-Expert 4
+        <br>
+        <img src="pics/p4.svg" width="40%">
+        <img src="pics/p4_panel.svg" width="50%">
+        <br>
+        </div>
+    </body>
+
+</html>
